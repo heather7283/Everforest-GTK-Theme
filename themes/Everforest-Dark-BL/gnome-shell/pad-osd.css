@@ -29,3 +29,18 @@
   stroke: #D3C6AA !important;
   fill: #4c555b !important;
 }
+
+* {
+  border-radius: 0px;
+  
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+  -gtk-outline-bottom-right-radius: 0px;
+  -gtk-outline-bottom-left-radius: 0px;
+  -gtk-outline-top-right-radius: 0px;
+  -gtk-outline-top-left-radius: 0px;
+}
+

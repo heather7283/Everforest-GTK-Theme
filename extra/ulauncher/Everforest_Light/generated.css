@@ -10,3 +10,18 @@
   border: none;
 }
 
+
+* {
+  border-radius: 0px;
+  
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+  -gtk-outline-bottom-right-radius: 0px;
+  -gtk-outline-bottom-left-radius: 0px;
+  -gtk-outline-top-right-radius: 0px;
+  -gtk-outline-top-left-radius: 0px;
+}
+

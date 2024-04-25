@@ -234,60 +234,60 @@ widget.view:selected,
 .linked:not(.vertical) > spinbutton.vertical,
 .linked:not(.vertical) > spinbutton:not(.vertical),
 .linked:not(.vertical) > entry {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .linked:not(.vertical) > button:first-child,
 .linked:not(.vertical) > spinbutton.vertical:first-child,
 .linked:not(.vertical) > spinbutton:first-child:not(.vertical),
 .linked:not(.vertical) > entry:first-child {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .linked:not(.vertical) > button:last-child,
 .linked:not(.vertical) > spinbutton.vertical:last-child,
 .linked:not(.vertical) > spinbutton:last-child:not(.vertical),
 .linked:not(.vertical) > entry:last-child {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .linked:not(.vertical) > button:only-child,
 .linked:not(.vertical) > spinbutton.vertical:only-child,
 .linked:not(.vertical) > spinbutton:only-child:not(.vertical),
 .linked:not(.vertical) > entry:only-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .linked.vertical > button,
 .linked.vertical > spinbutton.vertical,
 .linked.vertical > spinbutton:not(.vertical),
 .linked.vertical > entry {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .linked.vertical > button:first-child,
 .linked.vertical > spinbutton.vertical:first-child,
 .linked.vertical > spinbutton:first-child:not(.vertical),
 .linked.vertical > entry:first-child {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .linked.vertical > button:last-child,
 .linked.vertical > spinbutton.vertical:last-child,
 .linked.vertical > spinbutton:last-child:not(.vertical),
 .linked.vertical > entry:last-child {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .linked.vertical > button:only-child,
 .linked.vertical > spinbutton.vertical:only-child,
 .linked.vertical > spinbutton:only-child:not(.vertical),
 .linked.vertical > entry:only-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 /***************
@@ -299,12 +299,12 @@ widget.view:selected,
 }
 
 .background.csd {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 .background.tiled .background.maximized,
 .background.solid-csd {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 *:disabled {
@@ -354,7 +354,7 @@ widget.view:selected,
 }
 
 window.background.csd > stack.view {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 textview text {
@@ -368,7 +368,7 @@ textview border {
 
 iconview:hover,
 iconview:selected {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .rubberband,
@@ -1054,7 +1054,7 @@ flowbox treeview.view .content-view .rubberband,
 
 flowbox flowboxchild {
   padding: 4px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .content-view .tile:selected {
@@ -1080,7 +1080,7 @@ button label:disabled {
 }
 
 label.osd {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: rgba(25, 25, 25, 0.9);
   color: #D3C6AA;
 }
@@ -1136,7 +1136,7 @@ spinbutton:not(.vertical),
 entry {
   min-height: 36px;
   padding: 0 8px;
-  border-radius: 6px;
+  border-radius: 0px;
   caret-color: currentColor;
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1),
     box-shadow 300ms cubic-bezier(0, 0, 0.2, 1);
@@ -1172,7 +1172,7 @@ spinbutton.flat:not(.vertical),
 entry.flat {
   min-height: 0;
   padding: 2px;
-  border-radius: 0;
+  border-radius: 0px;
   background-color: transparent;
 }
 
@@ -1306,7 +1306,7 @@ entry progress {
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry {
-  border-radius: 6px;
+  border-radius: 0px;
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1),
     box-shadow 300ms cubic-bezier(0, 0, 0.2, 1);
   border-image: none;
@@ -1413,7 +1413,7 @@ treeview entry:focus {
 .photos-entry-tag,
 .documents-entry-tag {
   margin: 2px;
-  border-radius: 9999px;
+  border-radius: 0px;
   box-shadow: none;
   background-color: rgba(255, 249, 232, 0.12);
   color: #D3C6AA;
@@ -1683,7 +1683,7 @@ button.close,
 button.circular,
 .inline-toolbar button:not(.text-button),
 button.image-button {
-  border-radius: 9999px;
+  border-radius: 0px;
 }
 
 .raven .expander-button label,
@@ -1769,14 +1769,14 @@ spinbutton:not(.vertical) button {
   min-height: 24px;
   min-width: 24px;
   padding: 0;
-  border-radius: 9999px;
+  border-radius: 0px;
 }
 
 button {
   min-height: 24px;
   min-width: 16px;
   padding: 6px 10px;
-  border-radius: 6px;
+  border-radius: 0px;
   font-weight: 500;
 }
 
@@ -2258,13 +2258,13 @@ button.image-button {
 }
 
 button.image-button.destructive-action {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 button.text-button.image-button {
   min-width: 24px;
   padding: 6px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 button.text-button.image-button label:first-child {
@@ -2289,13 +2289,13 @@ button.text-button.image-button image:not(:only-child) {
 
 .linked:not(.vertical) > button.flat:not(:only-child),
 .linked.vertical > button.flat:not(:only-child) {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .linked:not(.vertical)
   > button.flat.image-button:not(:only-child):not(.text-button),
 .linked.vertical > button.flat.image-button:not(:only-child):not(.text-button) {
-  border-radius: 9999px;
+  border-radius: 0px;
 }
 
 .linked:not(.vertical) > button.flat:focus,
@@ -2476,7 +2476,7 @@ modelbutton.flat,
 .menuitem.button.flat {
   min-height: 28px;
   padding: 0 8px;
-  border-radius: 6px;
+  border-radius: 0px;
   color: #D3C6AA;
 }
 
@@ -2534,7 +2534,7 @@ spinbutton:not(.vertical) entry {
   min-width: 32px;
   margin: 0;
   border-image: none;
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   background-color: transparent;
 }
@@ -2569,7 +2569,7 @@ spinbutton.vertical:disabled {
 spinbutton.vertical entry {
   margin: 0;
   border-image: none;
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   background-color: transparent;
   min-height: 36px;
@@ -2598,7 +2598,7 @@ spinbutton.vertical button.down {
 treeview spinbutton:not(.vertical) {
   min-height: 0;
   border-style: none;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 treeview spinbutton:not(.vertical) entry {
@@ -2628,17 +2628,17 @@ combobox button.combo cellview:dir(rtl) {
 }
 
 combobox.linked button:nth-child(2):dir(ltr) {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 combobox.linked button:nth-child(2):dir(rtl) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 combobox > .linked:not(.vertical) > entry:not(:only-child) {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 combobox > .linked:not(.vertical) > entry:not(:only-child):first-child {
@@ -2656,31 +2656,31 @@ combobox > .linked:not(.vertical) > button:not(:only-child) {
   min-width: 16px;
   margin: 6px;
   padding: 4px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .linked:not(.vertical) > combobox:not(:first-child) > box > button.combo {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .linked:not(.vertical) > combobox:not(:last-child) > box > button.combo {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .linked.vertical > combobox:not(:first-child) > box > button.combo {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .linked.vertical > combobox:not(:last-child) > box > button.combo {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 button.combo:only-child {
-  border-radius: 6px;
+  border-radius: 0px;
   font-weight: normal;
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1),
     box-shadow 300ms cubic-bezier(0, 0, 0.2, 1);
@@ -2728,7 +2728,7 @@ frame.documents-dropdown,
 toolbar.osd {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   padding: 6px;
-  border-radius: 6px;
+  border-radius: 0px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
     inset 0 1px rgba(255, 249, 232, 0.1);
@@ -2755,7 +2755,7 @@ toolbar.osd.left,
 toolbar.osd.right,
 toolbar.osd.top,
 toolbar.osd.bottom {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 frame.bottom.documents-dropdown,
@@ -2842,7 +2842,7 @@ headerbar button:not(.suggested-action):not(.destructive-action) {
 headerbar
   .linked:not(.vertical)
   > button:not(.suggested-action):not(.destructive-action) {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .nemo-window .primary-toolbar button:focus:not(.text-button),
@@ -2937,7 +2937,7 @@ headerbar
     color 75ms cubic-bezier(0, 0, 0.2, 1);
   background-color: #232A2E;
   color: #D3C6AA;
-  border-radius: 12px 12px 0 0;
+  border-radius: 0px;
 }
 
 .titlebar:disabled {
@@ -2984,7 +2984,7 @@ headerbar
 }
 
 .titlebar .linked:not(.vertical) > entry {
-  border-radius: 6px;
+  border-radius: 0px;
   margin-left: 3px;
   margin-right: 3px;
 }
@@ -3115,21 +3115,21 @@ headerbar
 .tiled-left .titlebar,
 .maximized .titlebar,
 .fullscreen .titlebar {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .titlebar.default-decoration {
   min-height: 24px;
   padding: 10px 15px;
   box-shadow: inset 0 1px rgba(255, 249, 232, 0.1);
-  border-radius: 12px 12px 0 0;
+  border-radius: 0px;
 }
 
 .tiled .titlebar.default-decoration,
 .maximized .titlebar.default-decoration,
 .fullscreen .titlebar.default-decoration {
   box-shadow: none;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .titlebar.default-decoration button.titlebutton {
@@ -3145,7 +3145,7 @@ headerbar
 
 .solid-csd .titlebar:dir(rtl),
 .solid-csd .titlebar:dir(ltr) {
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
 }
 
@@ -3176,7 +3176,7 @@ headerbar button {
 
 headerbar button,
 headerbar button.image-button {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 headerbar separator.titlebutton {
@@ -3205,7 +3205,7 @@ headerbar .documents-entry-tag {
 headerbar.windowhandle
   viewswitcher
   button:not(.titlebutton):not(.suggested-action):not(.destructive-action) {
-  border-radius: 6px;
+  border-radius: 0px;
   margin: 5px 2px;
   min-width: 120px;
   padding: 0;
@@ -3270,7 +3270,7 @@ headerbar.windowhandle
   > button.radio {
   margin: 0;
   padding: 0;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 /************
@@ -3286,7 +3286,7 @@ headerbar.windowhandle
       transparent 0%
     )
     0 0 0/0 0 0px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .caja-pathbar button:checked,
@@ -3355,7 +3355,7 @@ treeview.view:selected:not(.progressbar):not(.trough) {
 
 treeview.view:hover,
 treeview.view:selected {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 treeview.view.separator {
@@ -3405,7 +3405,7 @@ treeview.view.progressbar {
   box-shadow: none;
   background-color: #A7C080;
   background-image: none;
-  border-radius: 9999px;
+  border-radius: 0px;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -3418,7 +3418,7 @@ treeview.view.trough {
   box-shadow: none;
   background-color: rgba(255, 249, 232, 0.12);
   background-image: none;
-  border-radius: 9999px;
+  border-radius: 0px;
   padding: 0;
   margin: 0;
 }
@@ -3430,7 +3430,7 @@ treeview.view.trough:selected:hover {
 treeview.view header button {
   padding: 2px 6px;
   border: none;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 treeview.view header button:not(:focus):not(:hover):not(:active) {
@@ -3448,7 +3448,7 @@ treeview.view header.button.dnd {
   border-style: none solid solid;
   border-width: 1px;
   border-color: rgba(255, 249, 232, 0.12);
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   background-color: #232A2E;
   background-clip: border-box;
@@ -3487,7 +3487,7 @@ menubar > menuitem,
   min-height: 20px;
   padding: 4px 8px;
   color: rgba(255, 249, 232, 0.7);
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 menubar > menuitem:hover,
@@ -3518,7 +3518,7 @@ menu,
   padding: 6px;
   background-color: #3D484D;
   background-clip: border-box;
-  border-radius: 12px;
+  border-radius: 0px;
   border: 1px solid #445055;
   box-shadow: inset 0 1px rgba(255, 249, 232, 0.1);
 }
@@ -3540,7 +3540,7 @@ menu menuitem,
   font: initial;
   font-weight: 500;
   text-shadow: none;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 menu menuitem:hover,
@@ -3634,7 +3634,7 @@ menu > arrow.top,
 .menu > arrow.top,
 .context-menu > arrow.top {
   margin-top: 0;
-  border-radius: 6px;
+  border-radius: 0px;
   -gtk-icon-source: -gtk-icontheme('pan-up-symbolic');
 }
 
@@ -3643,7 +3643,7 @@ menu > arrow.bottom,
 .context-menu > arrow.bottom {
   margin-top: 8px;
   margin-bottom: -12px;
-  border-radius: 6px;
+  border-radius: 0px;
   -gtk-icon-source: -gtk-icontheme('pan-down-symbolic');
 }
 
@@ -3675,7 +3675,7 @@ popover.background {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
   padding: 0;
   background-color: #3D484D;
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 popover.background,
@@ -3725,34 +3725,34 @@ popover.background.combo viewport.frame > list > row {
 }
 
 popover.background.combo viewport.frame > list > row:first-child {
-  border-radius: 12px 12px 0 0;
+  border-radius: 0px;
 }
 
 popover.background.combo viewport.frame > list > row:last-child {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 popover.background .linked > button:not(.radio) {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 popover.background .linked > button:not(.radio):first-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 popover.background .linked > button:not(.radio):last-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 popover.background .linked > button:not(.radio):only-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 popover.background.menu button,
 popover.background button.model {
   min-height: 32px;
   padding: 0 8px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 popover.background separator {
@@ -3778,7 +3778,7 @@ notebook > header tab {
   background-clip: padding-box;
   color: rgba(255, 249, 232, 0.7);
   font-weight: 500;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 tabbox > tab:hover,
@@ -3813,16 +3813,16 @@ notebook.frame > header {
 notebook,
 notebook.frame {
   background-color: #232A2E;
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 notebook.frame frame > border {
   border: none;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 notebook.frame frame > list row.activatable {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 notebook > header {
@@ -3830,7 +3830,7 @@ notebook > header {
   background-color: transparent;
   padding: 3px;
   margin: 3px;
-  border-radius: 9px;
+  border-radius: 0px;
 }
 
 notebook > header.top > tabs > arrow {
@@ -3888,7 +3888,7 @@ notebook > header.right > tabs > arrow.up {
 notebook > header > tabs > arrow {
   min-height: 16px;
   min-width: 16px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 notebook > header tab > box {
@@ -3949,7 +3949,7 @@ notebook > header.right tabs tab.reorderable-page {
 
 notebook > stack:not(:only-child) {
   background-color: transparent;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 /**************
@@ -3986,7 +3986,7 @@ scrollbar slider {
   min-width: 4px;
   min-height: 4px;
   border: 2px solid transparent;
-  border-radius: 9999px;
+  border-radius: 0px;
   background-clip: padding-box;
   background-color: rgba(255, 249, 232, 0.2);
 }
@@ -4037,7 +4037,7 @@ scrollbar.overlay-indicator:not(.dragging):not(.hovering) button {
   min-height: 4px;
   margin: 2px;
   border: 1px solid rgba(44, 44, 44, 0.3);
-  border-radius: 9999px;
+  border-radius: 0px;
   background-color: transparent;
   background-clip: padding-box;
   -gtk-icon-source: none;
@@ -4080,7 +4080,7 @@ scrollbar button {
   min-width: 16px;
   min-height: 16px;
   padding: 0;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 scrollbar.vertical button.down,
@@ -4103,7 +4103,7 @@ switch {
   margin: 6px 0;
   padding: 0;
   border: 2px solid rgba(255, 249, 232, 0.7);
-  border-radius: 9999px;
+  border-radius: 0px;
   background-color: transparent;
   background-clip: border-box;
   font-size: 0;
@@ -4128,7 +4128,7 @@ switch slider {
   min-width: 16px;
   min-height: 16px;
   margin: 2px;
-  border-radius: 9999px;
+  border-radius: 0px;
   outline: none;
   box-shadow: none;
   background-color: rgba(255, 249, 232, 0.7);
@@ -4331,7 +4331,7 @@ radio:indeterminate {
 menu menuitem check {
   min-height: 16px;
   min-width: 16px;
-  border-radius: 6px;
+  border-radius: 0px;
   -gtk-icon-source: -gtk-recolor(
     url('assets/scalable/small-checkbox-unchecked-symbolic.svg')
   );
@@ -4518,7 +4518,7 @@ scale fill:disabled {
 
 scale slider {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 9999px;
+  border-radius: 0px;
   color: #A7C080;
   background-color: #232A2E;
   box-shadow: inset 0 0 0 2px #A7C080;
@@ -4603,7 +4603,7 @@ scale.horizontal.marks-before:not(.marks-after) slider {
   min-height: 32px;
   min-width: 32px;
   margin: -15px;
-  border-radius: 50%;
+  border-radius: 0px;
   background-size: auto, 1000% 1000%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -4668,7 +4668,7 @@ scale.horizontal.marks-after:not(.marks-before) slider {
   min-height: 32px;
   min-width: 32px;
   margin: -15px;
-  border-radius: 50%;
+  border-radius: 0px;
   background-size: auto, 1000% 1000%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -4733,7 +4733,7 @@ scale.vertical.marks-before:not(.marks-after) slider {
   min-height: 32px;
   min-width: 32px;
   margin: -15px;
-  border-radius: 50%;
+  border-radius: 0px;
   background-size: auto, 1000% 1000%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -4798,7 +4798,7 @@ scale.vertical.marks-after:not(.marks-before) slider {
   min-height: 32px;
   min-width: 32px;
   margin: -15px;
-  border-radius: 50%;
+  border-radius: 0px;
   background-size: auto, 1000% 1000%;
   background-repeat: no-repeat;
   background-position: center center;
@@ -4908,12 +4908,12 @@ progressbar.vertical progress {
 }
 
 progressbar trough {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: rgba(255, 249, 232, 0.12);
 }
 
 progressbar progress {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: #A7C080;
 }
 
@@ -4963,7 +4963,7 @@ levelbar.vertical.discrete block:not(:last-child) {
 }
 
 levelbar trough {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 levelbar block.low {
@@ -5005,13 +5005,13 @@ frame > border,
   margin: 0;
   padding: 0;
   border: 1px solid rgba(255, 249, 232, 0.12);
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
 }
 
 frame > border.view,
 .frame.view {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 frame > border.flat,
@@ -5032,7 +5032,7 @@ actionbar > revealer > box {
 }
 
 .background.csd box.vertical > actionbar > revealer > box {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 scrolledwindow viewport.frame {
@@ -5321,17 +5321,17 @@ calendar:disabled {
 }
 
 calendar:selected {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 calendar.header {
   border-style: none none solid;
   border-color: rgba(255, 249, 232, 0.12);
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 calendar.button {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 calendar.highlight {
@@ -5372,8 +5372,8 @@ messagedialog checkbutton.text-button > check {
 }
 
 messagedialog.csd.background {
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 messagedialog.csd .dialog-action-box {
@@ -5383,7 +5383,7 @@ messagedialog.csd .dialog-action-box {
 messagedialog.csd .dialog-action-box button,
 messagedialog.csd .dialog-action-box button:first-child,
 messagedialog.csd .dialog-action-box button:last-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 messagedialog.csd .dialog-action-box button:not(:last-child) {
@@ -5404,7 +5404,7 @@ messagedialog.csd .dialog-action-box button.destructive-action:not(:disabled) {
 
 .csd filechooser {
   background-color: #232A2E;
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 filechooser .dialog-action-box {
@@ -5423,7 +5423,7 @@ filechooser stack.view {
 
 filechooser stack.view scrolledwindow {
   background-color: transparent;
-  border-radius: 0 0 12px 0;
+  border-radius: 0px;
 }
 
 filechooser stack.view scrolledwindow list {
@@ -5445,7 +5445,7 @@ filechooser stack.view frame > border {
 
 .csd filechooser placessidebar {
   background: none;
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 filechooser actionbar,
@@ -5502,7 +5502,7 @@ stacksidebar.sidebar list {
 stacksidebar.sidebar row {
   min-height: 32px;
   padding: 0 3px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 stacksidebar.sidebar row:selected {
@@ -5554,7 +5554,7 @@ placessidebar.sidebar row {
   min-height: 32px;
   margin: 0;
   padding: 0;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 placessidebar.sidebar row > revealer {
@@ -5717,7 +5717,7 @@ infobar.question > revealer > box,
 infobar.question:backdrop > revealer > box {
   background-color: #A7C080;
   color: rgba(0, 0, 0, 0.87);
-  border-radius: 12px 12px 0 0;
+  border-radius: 0px;
 }
 
 infobar.action > revealer > box button,
@@ -5757,7 +5757,7 @@ infobar.question:backdrop > revealer > box *:link {
 infobar.action:hover > revealer > box,
 infobar.question:hover > revealer > box {
   background-color: #D3C6AA;
-  border-radius: 12px 12px 0 0;
+  border-radius: 0px;
 }
 
 infobar.warning > revealer > box,
@@ -5824,7 +5824,7 @@ infobar.error:hover > revealer > box {
  * Tooltips *
  ************/
 tooltip {
-  border-radius: 3px;
+  border-radius: 0px;
   box-shadow: none;
 }
 
@@ -5834,7 +5834,7 @@ tooltip.background {
 }
 
 tooltip.background.csd {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 tooltip decoration {
@@ -5851,47 +5851,47 @@ tooltip > box {
  * Color Chooser *
  *****************/
 colorswatch.top {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 colorswatch.top overlay {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 colorswatch.bottom {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 colorswatch.bottom overlay {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 colorswatch.left,
 colorswatch:first-child:not(.top) {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 colorswatch.left overlay,
 colorswatch:first-child:not(.top) overlay {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 colorswatch.right,
 colorswatch:last-child:not(.bottom) {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 colorswatch.right overlay,
 colorswatch:last-child:not(.bottom) overlay {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 colorswatch.dark {
@@ -5911,11 +5911,11 @@ colorswatch overlay:hover {
 }
 
 colorswatch#add-color-button {
-  border-radius: 6px 6px 0 0;
+  border-radius: 0px;
 }
 
 colorswatch#add-color-button:only-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 colorswatch#add-color-button overlay {
@@ -5940,16 +5940,16 @@ colorswatch:disabled overlay {
 }
 
 colorswatch#editor-color-sample {
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 colorswatch#editor-color-sample overlay {
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 colorchooser .popover.osd {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 6px;
+  border-radius: 0px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
     inset 0 1px rgba(255, 249, 232, 0.1);
@@ -5974,7 +5974,7 @@ colorchooser .popover.osd:backdrop {
  **********************/
 decoration {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: 0 8px 6px -5px rgba(0, 0, 0, 0.2),
     0 16px 15px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12),
     0 0 0 1px rgba(0, 0, 0, 0.75), 0 0 36px transparent;
@@ -6000,7 +6000,7 @@ decoration:backdrop {
 .tiled-right decoration,
 .tiled-bottom decoration,
 .tiled-left decoration {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .popup decoration {
@@ -6009,19 +6009,19 @@ decoration:backdrop {
 
 .ssd decoration {
   border: none;
-  border-radius: 12px 12px 0 0;
+  border-radius: 0px;
   background-color: #232A2E;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75);
 }
 
 .metacity decoration {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   border: none;
 }
 
 .csd.popup decoration {
-  border-radius: 12px;
+  border-radius: 0px;
   border: 1px solid rgba(255, 249, 232, 0.2);
   box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.05),
     0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.05),
@@ -6029,13 +6029,13 @@ decoration:backdrop {
 }
 
 tooltip.csd decoration {
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: none;
   border: none;
 }
 
 messagedialog.csd decoration {
-  border-radius: 12px;
+  border-radius: 0px;
   border: 1px solid rgba(255, 249, 232, 0.2);
   background-color: #2b3339;
   background-clip: border-box;
@@ -6044,7 +6044,7 @@ messagedialog.csd decoration {
 .solid-csd decoration {
   margin: 0;
   padding: 2px;
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   background-color: #232A2E;
   border: 1px solid rgba(255, 249, 232, 0.2);
@@ -6113,7 +6113,7 @@ cursor-handle.insertion-cursor:dir(rtl) {
   padding-left: 8px;
   padding-right: 8px;
   border: solid 1px rgba(255, 249, 232, 0.12);
-  border-radius: 7px;
+  border-radius: 0px;
   box-shadow: inset 0 -2px rgba(255, 249, 232, 0.12);
   background-color: #445055;
   color: #D3C6AA;
@@ -6126,7 +6126,7 @@ cursor-handle.insertion-cursor:dir(rtl) {
 
 stackswitcher {
   min-height: 0;
-  border-radius: 9999px;
+  border-radius: 0px;
 	padding: 2px;
 	margin: 6px 0;
   background-color: alpha(currentColor, 0.05);
@@ -6136,7 +6136,7 @@ stackswitcher {
 stackswitcher.linked:not(.vertical)
   > button:not(.suggested-action):not(.destructive-action) {
   margin: 0 0;
-  border-radius: 9999px;
+  border-radius: 0px;
   background-color: transparent;
 	min-height: 20px;
 	padding: 5px 10px;
@@ -6192,7 +6192,7 @@ popover.emoji-picker {
 popover.emoji-picker entry {
   border-bottom: 1px solid rgba(255, 249, 232, 0.12);
   border-image: none;
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   background-color: transparent;
 }
@@ -6221,7 +6221,7 @@ popover.emoji-picker .emoji {
 
 popover.emoji-picker .emoji widget {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 popover.emoji-picker .emoji widget:hover {
@@ -6255,7 +6255,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.background.csd {
   background-color: #232A2E;
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 .nautilus-window.background.csd headerbar {
@@ -6284,7 +6284,7 @@ popover.emoji-completion .emoji:hover {
   background-color: #232A2E;
   color: #A7C080;
   margin: 0 0 6px 6px;
-  border-radius: 0 12px 12px 0;
+  border-radius: 0px;
 }
 
 .nautilus-window.background.csd placessidebar > viewport.frame > list {
@@ -6297,7 +6297,7 @@ popover.emoji-completion .emoji:hover {
   > viewport.frame
   > list
   > row.activatable {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .nautilus-window.background.csd
@@ -6408,7 +6408,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.background.csd .nautilus-list-view {
   background-color: transparent;
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 .nautilus-window.background.csd notebook {
@@ -6417,7 +6417,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.background.csd notebook > stack {
   background-color: #2b3339;
-  border-radius: 12px;
+  border-radius: 0px;
   border: 1px solid rgba(65, 72, 104, 0.2);
   margin: 0 6px 6px;
 }
@@ -6446,7 +6446,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.background.csd notebook placesview > actionbar {
   background-color: transparent;
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 .nautilus-window.background.csd
@@ -6460,7 +6460,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.maximized,
 .nautilus-window.maximized placessidebar {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .nautilus-window .floating-bar {
@@ -6468,7 +6468,7 @@ popover.emoji-completion .emoji:hover {
   padding: 0;
   margin: 6px;
   border-style: none;
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: #A7C080;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -6508,7 +6508,7 @@ popover.emoji-completion .emoji:hover {
 .path-bar-box {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
   margin: 6px 0;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .path-bar-box button {
@@ -6590,7 +6590,7 @@ popover.emoji-completion .emoji:hover {
 
 .windowhandle .linked.nautilus-path-bar {
   background-color: #2b3339;
-  border-radius: 6px;
+  border-radius: 0px;
   margin: 6px 0;
 }
 
@@ -6645,7 +6645,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window flowboxchild .icon-item-background {
   padding: 4px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .nautilus-window flowboxchild:selected {
@@ -6653,7 +6653,7 @@ popover.emoji-completion .emoji:hover {
 }
 
 .nautilus-window notebook .view:not(treeview) {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 dialog.background
@@ -6685,7 +6685,7 @@ dialog.background
   > box.horizontal:last-child
   > box
   > button {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .nautilus-window > popover.menu:not(:last-child) {
@@ -6759,7 +6759,7 @@ window.org-gnome-gedit
   > stack
   > grid.horizontal
   > scrolledwindow {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 window.org-gnome-gedit
@@ -6798,7 +6798,7 @@ window.org-gnome-gedit
 
 .gedit-side-panel-paned statusbar {
   border-top: 1px solid rgba(255, 249, 232, 0.12);
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 .gedit-search-slider {
@@ -6806,7 +6806,7 @@ window.org-gnome-gedit
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .gedit-search-slider
@@ -6868,7 +6868,7 @@ window.org-gnome-gedit
 
 .gedit-search-slider .linked > button {
   border: solid 6px transparent;
-  border-radius: 9999px;
+  border-radius: 0px;
 }
 
 .gedit-search-slider .linked > button:last-child:dir(ltr),
@@ -6956,7 +6956,7 @@ box.horizontal
 list.tweak-group list,
 .tweak-group-startup,
 list.content:not(.conversation-listbox) {
-  border-radius: 7px;
+  border-radius: 0px;
   box-shadow: none;
   border: 1px solid rgba(255, 249, 232, 0.12);
 }
@@ -7030,8 +7030,8 @@ box.horizontal
 list.tweak-group list row.activatable:first-child,
 .tweak-group-startup row.activatable:first-child,
 list.content:not(.conversation-listbox) > row:first-child {
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 window.background.csd stack stack stack frame > list row.activatable:last-child,
@@ -7097,8 +7097,8 @@ box.horizontal
 list.tweak-group list row.activatable:last-child,
 .tweak-group-startup row.activatable:last-child,
 list.content:not(.conversation-listbox) > row:last-child {
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 window.background.csd stack stack stack frame > list row.activatable:only-child,
@@ -7164,7 +7164,7 @@ box.horizontal
 list.tweak-group list row.activatable:only-child,
 .tweak-group-startup row.activatable:only-child,
 list.content:not(.conversation-listbox) > row:only-child {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 window.background.csd stack stack stack frame > list row.activatable:focus,
@@ -7276,7 +7276,7 @@ box.horizontal
   list:not(.view):not(.tweak-group)
   row.activatable,
 list.navigation-sidebar > row {
-  border-radius: 6px;
+  border-radius: 0px;
   margin: 1px 3px;
 }
 
@@ -7524,12 +7524,12 @@ list.navigation-sidebar > row:selected label {
 }
 
 .csd .tweak-categories {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 .csd.maximized .tweak-categories,
 .csd.tiled .tweak-categories {
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0px;
 }
 
 .tweak {
@@ -7556,7 +7556,7 @@ list.navigation-sidebar > row:selected label {
 }
 
 .tweak-group-startup row.tweak-startup {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: transparent;
   background-image: none;
 }
@@ -7596,7 +7596,7 @@ window.background.csd
   > headerbar.titlebar
   > hdyleaflet
   > headerbar:first-child:not(:only-child) {
-  border-top-left-radius: 12px;
+  border-top-left-radius: 0px;
 }
 
 window.background.csd
@@ -7607,7 +7607,7 @@ window.background.csd
   > headerbar.titlebar
   > hdyleaflet
   > headerbar:last-child:not(:only-child) {
-  border-top-right-radius: 12px;
+  border-top-right-radius: 0px;
 }
 
 window.background.csd
@@ -7626,12 +7626,12 @@ window.background.csd
   > headerbar.titlebar
   > hdyleaflet
   > headerbar:last-child:only-child {
-  border-top-right-radius: 12px;
-  border-top-left-radius: 12px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 
 window.background.csd > stack:not(.titlebar) > stack.background {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 window.background.csd > leaflet > stack.background,
@@ -7665,7 +7665,7 @@ window.background.csd
   > scrolledwindow
   > viewport.frame {
   background-color: #232A2E;
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 window.background.csd
@@ -7702,7 +7702,7 @@ window.background.csd > leaflet > box.vertical > scrolledwindow.view,
 window.background.csd > hdyleaflet > box.vertical > scrolledwindow.view,
 window.background.csd > box.horizontal > box.vertical > scrolledwindow.view {
   background-color: #232A2E;
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 window.background.csd
@@ -7793,7 +7793,7 @@ window.background.csd.tiled
   > headerbar.titlebar
   > hdyleaflet
   > headerbar:first-child:not(:only-child) {
-  border-top-left-radius: 0;
+  border-top-left-radius: 0px;
 }
 
 window.background.csd.maximized
@@ -7812,7 +7812,7 @@ window.background.csd.tiled
   > headerbar.titlebar
   > hdyleaflet
   > headerbar:last-child:not(:only-child) {
-  border-top-right-radius: 0;
+  border-top-right-radius: 0px;
 }
 
 window.background.csd.maximized
@@ -7847,13 +7847,13 @@ window.background.csd.tiled
   > headerbar.titlebar
   > hdyleaflet
   > headerbar:last-child:only-child {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 
 window.background.csd.maximized > stack:not(.titlebar) > stack.background,
 window.background.csd.tiled > stack:not(.titlebar) > stack.background {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 window.background.csd.maximized
@@ -7904,7 +7904,7 @@ window.background.csd.tiled
   > box.vertical
   > scrolledwindow
   > viewport.frame {
-  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0px;
 }
 
 window.background.csd.maximized > leaflet > box.vertical > scrolledwindow.view,
@@ -7922,7 +7922,7 @@ window.background.csd.tiled
   > box.horizontal
   > box.vertical
   > scrolledwindow.view {
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0px;
 }
 
 dialog.background.csd
@@ -7932,7 +7932,7 @@ dialog.background.csd
   > box.horizontal
   > notebook
   > stack {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 dialog.background.csd.maximized
@@ -7949,7 +7949,7 @@ dialog.background.csd.tiled
   > box.horizontal
   > notebook
   > stack {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 hdyleaflet frame > border,
@@ -7995,7 +7995,7 @@ box.horizontal > stack.background frame.view list > separator {
  ************************/
 window#gnome-system-monitor.background.csd > box.vertical > stack {
   background-color: #232A2E;
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 window#gnome-system-monitor.background.csd
@@ -8006,7 +8006,7 @@ window#gnome-system-monitor.background.csd
   > actionbar
   > revealer
   > box {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 window#gnome-system-monitor.background:not(.csd) > box.vertical > headerbar {
@@ -8018,11 +8018,11 @@ window#gnome-system-monitor.background:not(.csd) > box.vertical > headerbar {
  ************************/
 stack > grid.vertical > scrolledwindow {
   border: none;
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 stack > grid.vertical > scrolledwindow > viewport.frame list {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 stack > grid.vertical scrolledwindow.frame.emptyGrid {
@@ -8033,7 +8033,7 @@ stack > grid.vertical scrolledwindow.frame.emptyGrid {
  * Gnome Contacts *
  ******************/
 window.background.csd scrolledwindow.contacts-contact-form {
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 /************************
@@ -8044,13 +8044,13 @@ tabbox {
   background-color: rgba(255, 249, 232, 0.04);
   padding: 3px;
   margin: 3px;
-  border-radius: 9px;
+  border-radius: 0px;
 }
 
 tabbox > tab button {
   min-height: 24px;
   min-width: 24px;
-  border-radius: 9999px;
+  border-radius: 0px;
   border: none;
   padding: 0;
 }
@@ -8060,19 +8060,19 @@ tabbox > tab button {
  *****************/
 #weather-page,
 #weekly-forecast-frame {
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 #weather-page-content-view {
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 /***************
  * Gnome Music *
  ***************/
 window.background.csd box.vertical > overlay > stack.background {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 /****************
@@ -8139,7 +8139,7 @@ window.solid-csd
 }
 
 .sidebar-paned .inline-toolbar.horizontal.sidebar-toolbar button.image-button {
-  border-radius: 9999px;
+  border-radius: 0px;
 }
 
 .sidebar-paned
@@ -8148,24 +8148,24 @@ window.solid-csd
 .sidebar-paned
   .inline-toolbar.horizontal.sidebar-toolbar
   button.image-button:not(:last-child) {
-  border-top-left-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-  border-top-right-radius: 9999px;
-  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .sidebar-paned
   .inline-toolbar.horizontal.sidebar-toolbar
   button.image-button.image-button:not(.text-button):first-child {
-  border-top-left-radius: 9999px;
-  border-bottom-left-radius: 9999px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .sidebar-paned
   .inline-toolbar.horizontal.sidebar-toolbar
   button.image-button.image-button:not(.text-button):last-child {
-  border-top-right-radius: 9999px;
-  border-bottom-right-radius: 9999px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .sidebar-paned
@@ -8223,7 +8223,7 @@ window.background
 stack.view.polari-entry-area {
   background-color: #232A2E;
   border-top: 1px solid rgba(255, 249, 232, 0.12);
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 stack.view.polari-entry-area:disabled {
@@ -8282,7 +8282,7 @@ popover.popover-selector list {
 }
 
 popover.popover-selector list row {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 popover.popover-selector list row image:dir(ltr) {
@@ -8302,7 +8302,7 @@ popover.popover-selector list row .accel:dir(rtl) {
 }
 
 omnibar.linked:not(.vertical) entry {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 omnibar:not(:hover):not(:active) entry {
@@ -8343,15 +8343,15 @@ popover.messagepopover.background {
 popover.messagepopover .popover-action-area button {
   padding: 8px 16px;
   border-top: 1px solid rgba(255, 249, 232, 0.12);
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 popover.messagepopover .popover-action-area button:first-child {
-  border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 0px;
 }
 
 popover.messagepopover .popover-action-area button:last-child {
-  border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 0px;
 }
 
 popover.messagepopover .popover-content-area {
@@ -8444,7 +8444,7 @@ dockoverlayedge.right-edge docktab:checked {
 
 pillbox {
   background-color: #232A2E;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 layoutpane entry.search {
@@ -8517,7 +8517,7 @@ ideeditorutilities > dzldockpaned > box > stackswitcher:dir(rtl) {
 }
 
 ideeditorutilities > dzldockpaned > box > stackswitcher button {
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   background-color: transparent;
 }
@@ -8580,7 +8580,7 @@ GdMainIconView.content-view {
 
 .documents-counter {
   margin: 8px;
-  border-radius: 9999px;
+  border-radius: 0px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
   background-color: #A7C080;
@@ -8712,14 +8712,14 @@ box.vertical > revealer > toolbar.search-bar button > widget {
  * Document Viewer *
  *******************/
 window.background.csd evview.view.content-view {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 /*******************
  * Archive Manager *
  *******************/
 .background.csd > grid.horizontal > paned.horizontal > scrolledwindow {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
   background-color: #232A2E;
 }
 
@@ -8728,7 +8728,7 @@ window.background.csd evview.view.content-view {
   > paned.horizontal
   > box.vertical
   > scrolledwindow {
-  border-radius: 0 0 0 12px;
+  border-radius: 0px;
   background-color: #232A2E;
 }
 
@@ -8738,12 +8738,12 @@ window.background.csd evview.view.content-view {
 terminal-window decoration {
   padding: 0 2px 3px 2px;
   background-color: #232A2E;
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 terminal-window.background.csd,
 terminal-window.background.csd.maximized {
-  border-radius: 0 0 0 0;
+  border-radius: 0px;
 }
 
 terminal-window notebook > header > box {
@@ -8767,7 +8767,7 @@ window.background
   > scrolledwindow
   > viewport.frame
   list {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 window.background
@@ -8786,12 +8786,12 @@ window.background
   > widget
   > notebook.frame
   > stack {
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 .tilix-background,
 .tilix-background vte-terminal {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 /*********
@@ -8866,7 +8866,7 @@ box.vertical > paned.horizontal notebook widget .frame {
  * Fractal *
  ***********/
 .background.csd.main-window .sidebar.rooms-sidebar {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 /********
@@ -8893,7 +8893,7 @@ list.categories {
 .transparent-bg + stack overlay > label {
   min-height: 24px;
   padding: 0 4px;
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: #2b3339;
   color: #D3C6AA;
 }
@@ -8920,7 +8920,7 @@ window#GearyMainWindow.background.csd
   > box.vertical
   > paned.horizontal
   > box.sidebar.vertical {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 window.background.csd.geary-main-window
@@ -8937,12 +8937,12 @@ window#GearyMainWindow.background.csd
   > paned.horizontal
   > box.sidebar.vertical
   statusbar {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 window.background.csd.geary-main-window stack#conversation_viewer,
 window#GearyMainWindow.background.csd stack#conversation_viewer {
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 window.background.csd.geary-main-window
@@ -8956,7 +8956,7 @@ window#GearyMainWindow.background.csd
   viewport.frame
   list.conversation-listbox {
   background: none;
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 window.background.csd.geary-main-window
@@ -8983,7 +8983,7 @@ window#GearyMainWindow.background.csd
   actionbar
   > revealer
   > box {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 window.background.csd.geary-main-window
@@ -9014,7 +9014,7 @@ window#GearyMainWindow.background.csd
   actionbar
   > revealer
   > box {
-  border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0px;
 }
 
 .geary-accounts-editor-pane frame:not(.geary-signature) > border,
@@ -9099,7 +9099,7 @@ window#GearyMainWindow.background.csd
   scrolledwindow
   treeview.view {
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 0px;
   padding: 6px;
 }
 
@@ -9111,7 +9111,7 @@ window#GearyMainWindow.background.csd
   frame.geary-conversation-frame
   scrolledwindow
   treeview.view:active {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: #A7C080;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -9134,15 +9134,15 @@ window#GearyMainWindow.background.csd
   geary-conversation-viewer#conversation_viewer
   list.background.conversation-listbox.content
   > row.activatable:first-child {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .geary-main-window.unified
   geary-conversation-viewer#conversation_viewer
   list.background.conversation-listbox.content
   .geary-attachment-pane {
-  border-radius: 0 0 8px 8px;
+  border-radius: 0px;
 }
 
 .geary-main-window.unified
@@ -9160,7 +9160,7 @@ window#GearyMainWindow.background.csd
   actionbar.background
   > revealer
   > box {
-  border-radius: 0 0 6px 6px;
+  border-radius: 0px;
 }
 
 /**************
@@ -9200,7 +9200,7 @@ window.background.csd
 
 window.background.csd > stack > box > box > list,
 window.background.csd > stack > box > stack > scrolledwindow > viewport > list {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 window.background.csd
@@ -9226,7 +9226,7 @@ dialog.background.csd
   > scrolledwindow.frame
   > viewport.frame
   list:first-child {
-  border-radius: 0 0 0 12px;
+  border-radius: 0px;
 }
 
 dialog.background.csd
@@ -9235,7 +9235,7 @@ dialog.background.csd
   > scrolledwindow.frame
   > viewport.frame
   list:last-child {
-  border-radius: 0 0 12px 0;
+  border-radius: 0px;
 }
 
 dialog.background.csd > box.vertical.dialog-vbox > stack > scrolledwindow,
@@ -9244,7 +9244,7 @@ dialog.background.csd
   > stack
   > stack
   > scrolledwindow {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
   background-color: #232A2E;
 }
 
@@ -9268,7 +9268,7 @@ dialog.background.csd
   > scrolledwindow
   > viewport.frame
   > list {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 dialog.background.csd
@@ -9282,19 +9282,19 @@ dialog.background.csd
 }
 
 dialog.background.csd > box.vertical.dialog-vbox > stack toolbar.toolbar {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 dialog.background.csd > box.vertical.dialog-vbox > notebook > stack {
-  border-radius: 0 0 12px 12px;
+  border-radius: 0px;
 }
 
 dialog.background.csd stack scrolledwindow.frame {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 dialog.background.csd stack scrolledwindow.frame textview.view {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 dialog.background.csd stack scrolledwindow.frame textview.view > text {
@@ -9302,7 +9302,7 @@ dialog.background.csd stack scrolledwindow.frame textview.view > text {
 }
 
 dialog.background.csd stack scrolledwindow viewport.frame.view {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 window.background.csd.unified headerbar {
@@ -9316,7 +9316,7 @@ window.background.csd.unified > decoration-overlay {
 window.background.csd.unified,
 window.background.csd.unified > decoration,
 window.background.csd.unified > decoration-overlay {
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 window.background.csd.unified.tiled > decoration-overlay,
@@ -9350,7 +9350,7 @@ window.background.csd.unified.maximized > decoration-overlay,
 window.background.csd.unified.fullscreen,
 window.background.csd.unified.fullscreen > decoration,
 window.background.csd.unified.fullscreen > decoration-overlay {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 /*********
@@ -9377,7 +9377,7 @@ overlay > revealer.right > scrolledwindow.frame {
 }
 
 .terminal-titlebar button {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 button.image-button.session-new-button {
@@ -9417,7 +9417,7 @@ window > notebook {
  * Ubitquity *
  *************/
 #live_installer .menubar progressbar trough {
-  border-radius: 4px;
+  border-radius: 0px;
   background-color: rgba(255, 249, 232, 0.12);
 }
 
@@ -9434,7 +9434,7 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
 }
 
 window.background > box.vertical > scrolledwindow > widget toolbar button {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 /************
@@ -9495,7 +9495,7 @@ window.background.chromium menu {
 }
 
 window.background.chromium menu menuitem {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 tooltip.background.chromium {
@@ -9529,7 +9529,7 @@ tooltip.background.chromium {
 #MozillaGtkWidget > widget > entry,
 #MozillaGtkWidget > widget > button > button {
   border: 1px solid #232A2E;
-  border-radius: 6px;
+  border-radius: 0px;
   box-shadow: none;
 }
 
@@ -9779,7 +9779,7 @@ window.background.csd
   > viewport.frame
   > list {
   border: none;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 /***********
@@ -9818,7 +9818,7 @@ UnityDecoration {
 UnityDecoration .top {
   padding: 0 2px;
   border-style: none;
-  border-radius: 12px 12px 0 0;
+  border-radius: 0px;
   box-shadow: inset 0 1px rgba(255, 249, 232, 0.1);
   background-color: #232A2E;
   color: #D3C6AA;
@@ -9840,7 +9840,7 @@ UnityDecoration .menuitem:hover {
 }
 
 .background:not(.csd) headerbar:not(.titlebar) {
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3),
     0 1px 2px -1px rgba(0, 0, 0, 0.24), 0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
 }
@@ -9896,7 +9896,7 @@ UnityPanelWidget:backdrop,
   min-height: 16px;
   min-width: 16px;
   padding: 0;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 PanelToplevel.horizontal > grid > button {
@@ -10022,7 +10022,7 @@ PanelApplet.wnck-applet .wnck-pager:selected {
 
 #MatePanelPopupWindow {
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 7px;
+  border-radius: 0px;
   box-shadow: inset 0 1px rgba(255, 249, 232, 0.1);
   background-color: #445055;
 }
@@ -10068,7 +10068,7 @@ na-tray-applet {
 
 .mate-panel-applet-slider {
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 7px;
+  border-radius: 0px;
   box-shadow: inset 0 1px rgba(255, 249, 232, 0.1);
   background-color: #445055;
 }
@@ -10178,7 +10178,7 @@ na-tray-applet {
 }
 
 .brisk-menu .apps-list button {
-  border-radius: 0;
+  border-radius: 0px;
   color: #D3C6AA;
   font-weight: normal;
 }
@@ -10187,7 +10187,7 @@ na-tray-applet {
  * CAJA File manager *
  *********************/
 .caja-navigation-window button.toggle.image-button {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .caja-pathbar button {
@@ -10219,13 +10219,13 @@ na-tray-applet {
 }
 
 .caja-canvas-item {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .caja-desktop.view .entry,
 .caja-navigation-window .view .entry {
   border: none;
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: rgba(255, 249, 232, 0.04);
   background-image: none;
   color: #D3C6AA;
@@ -10280,7 +10280,7 @@ na-tray-applet {
 
 .pluma-window statusbar frame button.flat {
   padding: 0 4px;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .pluma-window statusbar frame button.flat widget {
@@ -10328,7 +10328,7 @@ na-tray-applet {
 /* mate-screensaver lock dialog */
 .lock-dialog {
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 7px;
+  border-radius: 0px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
     inset 0 1px rgba(255, 249, 232, 0.1);
@@ -10345,18 +10345,18 @@ na-tray-applet {
 
 /* multimedia OSD */
 MsdOsdWindow.background.osd {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: rgba(25, 25, 25, 0.9);
   color: #D3C6AA;
 }
 
 MsdOsdWindow.background.osd .trough {
-  border-radius: 0;
+  border-radius: 0px;
   background-color: rgba(255, 249, 232, 0.12);
 }
 
 MsdOsdWindow.background.osd .progressbar {
-  border-radius: 0;
+  border-radius: 0px;
   background-color: #A7C080;
 }
 
@@ -10368,7 +10368,7 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 .budgie-settings-window list.sidebar {
-  border-radius: 0 0 0 12px;
+  border-radius: 0px;
 }
 
 .budgie-settings-window buttonbox.inline-toolbar {
@@ -10376,14 +10376,14 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 .budgie-settings-window buttonbox.inline-toolbar button {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .budgie-popover {
   border-style: solid;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.3);
-  border-radius: 6px;
+  border-radius: 0px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
   background-color: #445055;
@@ -10424,7 +10424,7 @@ MsdOsdWindow.background.osd .progressbar {
 .budgie-popover scrolledwindow.sidebar:not(.categories) {
   background-color: rgba(255, 249, 232, 0.04);
   border-right: none;
-  border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 0px;
 }
 
 .budgie-popover scrolledwindow.sidebar:not(.categories) list > row.activatable {
@@ -10433,8 +10433,8 @@ MsdOsdWindow.background.osd .progressbar {
 
 .budgie-popover.bottom scrolledwindow.sidebar:not(.categories) {
   padding-top: 6px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .budgie-popover
@@ -10487,7 +10487,7 @@ MsdOsdWindow.background.osd .progressbar {
 .budgie-popover.budgie-menu entry.search {
   border-bottom: 1px solid rgba(255, 249, 232, 0.12);
   border-image: none;
-  border-radius: 0;
+  border-radius: 0px;
   box-shadow: none;
   font-size: 120%;
 }
@@ -10496,7 +10496,7 @@ MsdOsdWindow.background.osd .progressbar {
   button.flat:not(.image-button):not(.indicator-item) {
   min-height: 32px;
   padding: 0 8px;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .budgie-popover.budgie-menu
@@ -10517,7 +10517,7 @@ MsdOsdWindow.background.osd .progressbar {
   row.activatable:first-child {
   margin-bottom: 3px;
   outline-width: 0;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .budgie-popover.user-menu
@@ -10638,7 +10638,7 @@ MsdOsdWindow.background.osd .progressbar {
   min-height: 24px;
   min-width: 24px;
   padding: 0;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .budgie-panel button.budgie-menu-launcher {
@@ -10657,7 +10657,7 @@ MsdOsdWindow.background.osd .progressbar {
 .budgie-panel button.budgie-menu-launcher image {
   padding: 0;
   margin: 0;
-  border-radius: 9999px;
+  border-radius: 0px;
   background-image: image(rgba(255, 249, 232, 0.12));
 }
 
@@ -10695,7 +10695,7 @@ MsdOsdWindow.background.osd .progressbar {
   min-height: 24px;
   min-width: 24px;
   padding: 0;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .budgie-panel button:hover {
@@ -11057,7 +11057,7 @@ calendar.raven-calendar {
 }
 
 calendar.raven-calendar:selected {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 .raven-mpris {
@@ -11100,7 +11100,7 @@ calendar.raven-calendar:selected {
 .drop-shadow {
   margin: 5px 9px;
   padding: 3px;
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
     inset 0 1px rgba(255, 249, 232, 0.1);
@@ -11108,7 +11108,7 @@ calendar.raven-calendar:selected {
 }
 
 .drop-shadow .linked > button {
-  border-radius: 12px;
+  border-radius: 0px;
 }
 
 .budgie-session-dialog,
@@ -11124,7 +11124,7 @@ calendar.raven-calendar:selected {
 .budgie-polkit-dialog decoration,
 .budgie-run-dialog.background.csd,
 .budgie-run-dialog decoration {
-  border-radius: 12px 12px 12px 12px;
+  border-radius: 0px;
 }
 
 .budgie-session-dialog label:not(:last-child),
@@ -11141,19 +11141,19 @@ calendar.raven-calendar:selected {
 .budgie-run-dialog .linked.horizontal > button {
   padding: 8px 16px;
   border-top: 1px solid rgba(255, 249, 232, 0.12);
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .budgie-session-dialog .linked.horizontal > button:first-child,
 .budgie-polkit-dialog .linked.horizontal > button:first-child,
 .budgie-run-dialog .linked.horizontal > button:first-child {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 .budgie-session-dialog .linked.horizontal > button:last-child,
 .budgie-polkit-dialog .linked.horizontal > button:last-child,
 .budgie-run-dialog .linked.horizontal > button:last-child {
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 0px;
 }
 
 .budgie-polkit-dialog .message {
@@ -11201,7 +11201,7 @@ calendar.raven-calendar:selected {
   min-height: 16px;
   min-width: 16px;
   padding: 0;
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .xfce4-panel.background .tasklist button {
@@ -11229,7 +11229,7 @@ wnck-pager:selected {
 }
 
 XfdesktopIconView.view {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: transparent;
   color: #D3C6AA;
 }
@@ -11239,7 +11239,7 @@ XfdesktopIconView.view:active {
 }
 
 XfdesktopIconView.view .rubberband {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 #XfceNotifyWindow buttonbox {
@@ -11252,7 +11252,7 @@ XfdesktopIconView.view .rubberband {
 
 #xfwm-tabwin {
   padding: 12px;
-  border-radius: 6px;
+  border-radius: 0px;
   -xfwmtabwinwidget-icon-size: 64px;
   -xfwmtabwinwidget-preview-size: 64px;
 }
@@ -11289,7 +11289,7 @@ window.background.csd.thunar
   > grid.horizontal
   > paned.horizontal
   > scrolledwindow.frame.sidebar.shortcuts-pane {
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 0px;
 }
 
 window.background.csd.thunar
@@ -11337,7 +11337,7 @@ window.background.csd.thunar
 #shutdown_dialog,
 #restart_dialog {
   margin: 8px;
-  border-radius: 6px;
+  border-radius: 0px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
     inset 0 1px rgba(255, 249, 232, 0.1);
@@ -11408,7 +11408,7 @@ window.background.csd.thunar
 }
 
 .nemo-window .nemo-window-pane widget.entry {
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: rgba(255, 249, 232, 0.04);
 }
 
@@ -11422,3 +11422,18 @@ window.background.csd.thunar
   padding-top: 3px;
   padding-bottom: 3px;
 }
+
+* {
+  border-radius: 0px;
+  
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+  -gtk-outline-bottom-right-radius: 0px;
+  -gtk-outline-bottom-left-radius: 0px;
+  -gtk-outline-top-right-radius: 0px;
+  -gtk-outline-top-left-radius: 0px;
+}
+
