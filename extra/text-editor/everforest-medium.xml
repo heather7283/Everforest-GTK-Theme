@@ -5,7 +5,7 @@
   <description>Everforest Medium theme for Gnome Text Editor</description>
 
   <!-- Colors -->
-  <color name="everforest0"                 value="#bec5b2" />
+  <color name="everforest0"                 value="#A7C080" />
   <color name="everforest1"                 value="#edf0cd" />
   <color name="pink"                        value="#d699b6" />
   <color name="purple"                      value="#df69ba" />
@@ -30,7 +30,7 @@
   <color name="overlay0"                    value="#3c474d" />
   <color name="surface2"                    value="#323d43" />
   <color name="surface1"                    value="#2f383e" />
-  <color name="surface0"                    value="#1e2327" />
+  <color name="surface0"                    value="#232A2E" />
 
   <!-- Global Settings -->
   <style name="text"                        background="base0" foreground="text0"/>

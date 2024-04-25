@@ -14,11 +14,11 @@
 @define-color item_name #4c555b;
 @define-color item_text #7f897d;
 @define-color item_box_selected #4c555b;
-@define-color item_name_selected #1e2327;
-@define-color item_text_selected #323c41;
+@define-color item_name_selected #232A2E;
+@define-color item_text_selected #3D484D;
 @define-color item_shortcut_color #4c555b;
 @define-color item_shortcut_shadow darker(@bg_color);
-@define-color item_shortcut_color_sel #1e2327;
+@define-color item_shortcut_color_sel #232A2E;
 @define-color item_shortcut_shadow_sel darker(@item_box_selected);
 
 .app {
