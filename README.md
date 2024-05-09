@@ -1,3 +1,4 @@
+<h1 aligh="center">NOTE: This is my personal fork. You should go to original repo instead: https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme</h1>
 <h1 align="center">Everforest GTK Theme</h1>
 <p align="center">
   <img = src="https://img.shields.io/badge/OS-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=yelow"/>
