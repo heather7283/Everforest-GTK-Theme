@@ -5043,74 +5043,6 @@ stack scrolledwindow.frame viewport.frame list {
   border: none;
 }
 
-overshoot.top {
-  background-image: -gtk-gradient(
-    radial,
-    center top,
-    0,
-    center top,
-    0.75,
-    to(rgba(190, 197, 178, 0.24)),
-    to(transparent)
-  );
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-}
-
-overshoot.bottom {
-  background-image: -gtk-gradient(
-    radial,
-    center bottom,
-    0,
-    center bottom,
-    0.75,
-    to(rgba(190, 197, 178, 0.24)),
-    to(transparent)
-  );
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-}
-
-overshoot.left {
-  background-image: -gtk-gradient(
-    radial,
-    left center,
-    0,
-    left center,
-    0.75,
-    to(rgba(190, 197, 178, 0.24)),
-    to(transparent)
-  );
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-}
-
-overshoot.right {
-  background-image: -gtk-gradient(
-    radial,
-    right center,
-    0,
-    right center,
-    0.75,
-    to(rgba(190, 197, 178, 0.24)),
-    to(transparent)
-  );
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-}
-
 junction {
   border-style: solid none none solid;
   border-width: 1px;
@@ -11480,5 +11412,14 @@ window.background.csd.thunar
   -gtk-outline-bottom-left-radius: 0px;
   -gtk-outline-top-right-radius: 0px;
   -gtk-outline-top-left-radius: 0px;
+}
+
+overshoot {
+  background: transparent;
+  border: none;
+}
+undershoot {
+  background: transparent;
+  border: none;
 }
 

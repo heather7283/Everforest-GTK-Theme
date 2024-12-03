@@ -2282,3 +2282,12 @@ StScrollBar StButton#hhandle:active {
   -gtk-outline-top-left-radius: 0px;
 }
 
+overshoot {
+  background: transparent;
+  border: none;
+}
+undershoot {
+  background: transparent;
+  border: none;
+}
+
